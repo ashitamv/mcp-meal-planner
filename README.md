@@ -136,14 +136,4 @@ uv run python scripts/live_smoke.py
 
 ## Deployment and operations
 
-See [operations](docs/OPERATIONS.md). The supplied Dockerfile, Compose configuration, and Render blueprint target **one replica with a persistent local disk**. Docker and cloud execution require separate environment verification; see the recorded verification report. TLS terminates at the host's reverse proxy. No deployment is performed by setup scripts.
-
-The project intentionally avoids a separate frontend: the MCP host supplies the user interface. A public multi-user service needs OAuth, authorization on stored records, and a database/operational design appropriate to the workload. Horizontal scaling is not supported by this SQLite deployment.
-
-## Sources and attribution
-
-- [Original course source](https://github.com/PacktPublishing/Model-Context-Protocol-Unlocked-From-Fundamentals-to-Advanced-Customization/tree/12ae65cf869c1105aa102b917f19a95fbaee87d2)
-- [Official SDK migration guide](https://py.sdk.modelcontextprotocol.io/migration/)
-- [TheMealDB API](https://www.themealdb.com/api.php)
-
-MIT-licensed application code. See `THIRD_PARTY_NOTICES.md` for the course attribution and external data distinction.
+The MCP host supplies the user interface. A public multi-user service needs OAuth, authorization on stored records, and a database/operational design appropriate to the workload. Horizontal scaling is not supported by this SQLite deployment.
