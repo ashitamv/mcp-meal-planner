@@ -2,8 +2,6 @@
 
 A recipe research and meal planning server for MCP-compatible AI hosts. Search for dishes, inspect recipes, save complete meal plans with repeatable writes, and generate consolidated shopping lists with traceable quantities. Run entirely offline for a portfolio demonstration or connect to TheMealDB for live recipes.
 
-This is a from-scratch rebuild of the recipe capstone in Paulo Dichone's **Model Context Protocol Unlocked** course. The public course source and syllabus were inspected; the paid videos were not viewed. See [course synthesis](docs/COURSE_SYNTHESIS.md), [interview prep](docs/INTERVIEW_PREP.md) and [verification evidence](docs/VERIFICATION.md).
-
 ## Quick start
 
 Requires Python 3.12 or newer (3.12–3.14 supported) and [uv](https://docs.astral.sh/uv/). From the extracted project directory:
