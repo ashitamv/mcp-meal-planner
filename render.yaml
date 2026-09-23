@@ -1,0 +1,24 @@
+# Publish this project to your own repository before creating a Render Blueprint.
+# A persistent disk needs a paid service. No cloud resources are created locally.
+services:
+  - type: web
+    name: recipe-mcp
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /readyz
+    disk:
+      name: recipe-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: RECIPE_MODE
+        value: demo
+      - key: RECIPE_AUTH_TOKEN
+        generateValue: true
+      - key: RECIPE_ALLOWED_HOSTS
+        sync: false
+      - key: RECIPE_ALLOWED_ORIGINS
+        sync: false
+      - key: RECIPE_API_KEY
+        sync: false

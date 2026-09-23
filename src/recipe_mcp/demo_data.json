@@ -1,0 +1,105 @@
+[
+  {
+    "id": "900001",
+    "name": "Coconut Chickpea Skillet",
+    "cuisine": "Fusion",
+    "category": "Vegetarian",
+    "instructions": "1. Warm the olive oil in a skillet over medium heat. Add the onion and cook for 5 minutes until softened.\n2. Stir in the curry powder for 30 seconds. Add the drained chickpeas, tomatoes, and coconut milk.\n3. Simmer gently for 12 minutes, stirring occasionally, until the sauce thickens.\n4. Fold in the spinach and cook for 2 minutes until wilted. Season to taste and serve with cooked rice.",
+    "ingredients": [
+      {"ingredient": "Chickpeas, cooked and drained", "measure": "2 cups"},
+      {"ingredient": "Coconut milk", "measure": "200 ml"},
+      {"ingredient": "Chopped tomatoes", "measure": "1 cup"},
+      {"ingredient": "Onion, diced", "measure": "1 small"},
+      {"ingredient": "Spinach", "measure": "2 handfuls"},
+      {"ingredient": "Curry powder", "measure": "2 tsp"},
+      {"ingredient": "Olive oil", "measure": "1 tbsp"},
+      {"ingredient": "Cooked rice", "measure": "2 cups"}
+    ],
+    "tags": ["Offline demo", "One pan", "Vegan"]
+  },
+  {
+    "id": "900002",
+    "name": "Lemon Herb Couscous",
+    "cuisine": "Mediterranean-inspired",
+    "category": "Vegetarian",
+    "instructions": "1. Place the couscous in a heatproof bowl and pour over the boiling vegetable stock. Cover for 5 minutes.\n2. Fluff with a fork and let stand for 3 minutes.\n3. Fold in the cucumber, parsley, chickpeas, lemon juice, and olive oil.\n4. Season to taste and serve warm or refrigerate promptly for a chilled lunch.",
+    "ingredients": [
+      {"ingredient": "Couscous", "measure": "1 cup"},
+      {"ingredient": "Vegetable stock, boiling", "measure": "1 cup"},
+      {"ingredient": "Cucumber, diced", "measure": "1 small"},
+      {"ingredient": "Parsley, chopped", "measure": "3 tbsp"},
+      {"ingredient": "Chickpeas, cooked and drained", "measure": "1 cup"},
+      {"ingredient": "Lemon juice", "measure": "2 tbsp"},
+      {"ingredient": "Olive oil", "measure": "1 tbsp"}
+    ],
+    "tags": ["Offline demo", "Quick", "Vegan"]
+  },
+  {
+    "id": "900003",
+    "name": "Smoky Black Bean Wraps",
+    "cuisine": "Fusion",
+    "category": "Vegetarian",
+    "instructions": "1. Warm the olive oil in a pan. Cook the sliced pepper for 5 minutes.\n2. Add the drained black beans, smoked paprika, and water. Simmer for 5 minutes, then mash a few beans to thicken.\n3. Warm the tortillas according to their package instructions.\n4. Divide the bean mixture, shredded lettuce, and avocado among the tortillas. Squeeze over the lime juice and roll into wraps.",
+    "ingredients": [
+      {"ingredient": "Black beans, cooked and drained", "measure": "2 cups"},
+      {"ingredient": "Bell pepper, sliced", "measure": "1"},
+      {"ingredient": "Smoked paprika", "measure": "1 tsp"},
+      {"ingredient": "Water", "measure": "3 tbsp"},
+      {"ingredient": "Olive oil", "measure": "1 tbsp"},
+      {"ingredient": "Flour tortillas", "measure": "4"},
+      {"ingredient": "Lettuce, shredded", "measure": "1 cup"},
+      {"ingredient": "Avocado, sliced", "measure": "1"},
+      {"ingredient": "Lime juice", "measure": "1 tbsp"}
+    ],
+    "tags": ["Offline demo", "Vegan", "Lunch"]
+  },
+  {
+    "id": "900004",
+    "name": "Tomato Basil Orzo",
+    "cuisine": "Italian-inspired",
+    "category": "Pasta",
+    "instructions": "1. Heat the olive oil in a saucepan and cook the minced garlic for 30 seconds.\n2. Add the orzo, tomatoes, and vegetable stock. Bring to a gentle simmer.\n3. Cook uncovered for 10 to 12 minutes, stirring frequently and adding a splash of water if needed, until the pasta is tender.\n4. Fold in the basil and season to taste. Let stand for 2 minutes before serving.",
+    "ingredients": [
+      {"ingredient": "Orzo", "measure": "1 cup"},
+      {"ingredient": "Chopped tomatoes", "measure": "1 cup"},
+      {"ingredient": "Vegetable stock", "measure": "2 cups"},
+      {"ingredient": "Garlic, minced", "measure": "2 cloves"},
+      {"ingredient": "Fresh basil, torn", "measure": "1 handful"},
+      {"ingredient": "Olive oil", "measure": "1 tbsp"}
+    ],
+    "tags": ["Offline demo", "One pot", "Vegan"]
+  },
+  {
+    "id": "900005",
+    "name": "Apple Cinnamon Oats",
+    "cuisine": "International",
+    "category": "Breakfast",
+    "instructions": "1. Put the oats, oat milk, diced apple, and cinnamon in a small saucepan.\n2. Bring to a gentle simmer and cook for 6 to 8 minutes, stirring often, until the oats soften.\n3. Add a splash of water if you prefer a looser texture.\n4. Divide into bowls and finish with pumpkin seeds and maple syrup.",
+    "ingredients": [
+      {"ingredient": "Rolled oats", "measure": "1 cup"},
+      {"ingredient": "Oat milk", "measure": "2 cups"},
+      {"ingredient": "Apple, diced", "measure": "1"},
+      {"ingredient": "Ground cinnamon", "measure": "0.5 tsp"},
+      {"ingredient": "Pumpkin seeds", "measure": "2 tbsp"},
+      {"ingredient": "Maple syrup", "measure": "2 tsp"}
+    ],
+    "tags": ["Offline demo", "Breakfast", "Vegan"]
+  },
+  {
+    "id": "900006",
+    "name": "Miso Mushroom Noodles",
+    "cuisine": "Japanese-inspired",
+    "category": "Vegetarian",
+    "instructions": "1. Cook the noodles according to their package instructions, then drain.\n2. Heat the sesame oil in a pan. Cook the sliced mushrooms for 6 minutes, stirring occasionally.\n3. Add the vegetable stock and bring to a gentle simmer. Whisk the miso with a little warm stock in a cup, then stir it into the pan.\n4. Add the noodles and spinach. Heat gently for 2 minutes, then divide into bowls and top with sliced spring onion.",
+    "ingredients": [
+      {"ingredient": "Wheat noodles", "measure": "150 g"},
+      {"ingredient": "Mushrooms, sliced", "measure": "200 g"},
+      {"ingredient": "Vegetable stock", "measure": "500 ml"},
+      {"ingredient": "White miso paste", "measure": "1 tbsp"},
+      {"ingredient": "Sesame oil", "measure": "1 tsp"},
+      {"ingredient": "Spinach", "measure": "1 handful"},
+      {"ingredient": "Spring onion, sliced", "measure": "1"}
+    ],
+    "tags": ["Offline demo", "Vegan", "Dinner"]
+  }
+]

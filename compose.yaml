@@ -1,0 +1,22 @@
+services:
+  recipes:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      RECIPE_MODE: ${RECIPE_MODE:-demo}
+      RECIPE_AUTH_TOKEN: ${RECIPE_AUTH_TOKEN:?Set a random token of at least 32 characters}
+      RECIPE_API_KEY: ${RECIPE_API_KEY:-1}
+      RECIPE_ALLOWED_HOSTS: '["localhost","localhost:*","127.0.0.1","127.0.0.1:*"]'
+    volumes:
+      - recipe-data:/data
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  recipe-data:
