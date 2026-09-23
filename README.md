@@ -85,7 +85,7 @@ Five prompts preserve the course's recipe search, meal planning, cooking lesson,
 
 1. **Resilient provider access:** pooled asynchronous HTTP, finite timeouts, bounded transient retries with backoff, capped Retry-After handling, TTL/LRU cache, and duplicate concurrent lookup suppression. Random selection is never cached. Error messages use stable codes and do not expose upstream credentials.
 2. **Transactional and testable meal planning:** SQLite constraints and transactions, UUID plan identities, persistent idempotency keys, complete-plan validation, and automated domain/provider/protocol/HTTP/stdio tests.
-3. **Deterministic shopping lists:** exact rational arithmetic, conservative ingredient matching and unit conversion, source attribution for every ingredient line, and explicit review of ambiguous measurements. Missing recipe data fails the operation instead of returning an apparently complete list. See [shopping-list design and interview questions](docs/SHOPPING_LIST.md).
+3. **Deterministic shopping lists:** exact rational arithmetic, conservative ingredient matching and unit conversion, source attribution for every ingredient line, and explicit review of ambiguous measurements. Missing recipe data fails the operation instead of returning an apparently complete list. 
 
 The current stable official MCP SDK is pinned through `uv.lock` (2.2.0 at implementation time, September 19, 2026). The course's `FastMCP` import from SDK v1 was migrated to `MCPServer`, transport options moved to the run/app boundary, and clients use v2 snake_case result attributes. The external recipe adapter uses `httpx`; the SDK independently uses `httpx2` for MCP transport. Neither client is passed to the other library.
 
